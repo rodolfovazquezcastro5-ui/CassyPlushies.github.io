@@ -1,0 +1,91 @@
+body{
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(#ffd6e7,#e6f0ff);
+  text-align:center;
+}
+
+h1{
+  color:#ff6fa5;
+  font-size:50px;
+}
+
+.section{
+  margin:40px 0;
+}
+
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+}
+
+.card{
+  width:180px;
+  border-radius:15px;
+  overflow:hidden;
+  background:white;
+  transition:0.3s;
+}
+
+.card img{
+  width:100%;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.contacto{
+  background:#ffc1d6;
+  padding:30px;
+  border-radius:20px;
+  width:80%;
+  margin:auto;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  background:#25D366;
+  color:white;
+  padding:15px 25px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:10px;
+  transition:0.3s;
+}
+
+.btn img{
+  width:25px;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+}
+
+.insta{
+  margin-top:20px;
+}
+
+.insta img{
+  width:60px;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.insta img:hover{
+  transform:scale(1.1);
+}
+
+.fade{
+  animation:fade 0.6s;
+}
+
+@keyframes fade{
+  from{opacity:0;}
+  to{opacity:1;}
+}
